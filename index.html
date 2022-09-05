@@ -38,7 +38,7 @@
 
                 <div class="hero-cta">
                     <a href="#" class="primary-cta">Try For Free!</a>
-                    <a href="#" class="watch-video-cta"></a>
+                    <a href="#" class="watch-video-cta">
                         <img src="img/watch.svg" alt="Watch a video">Watch a video
                     </a>
                 </div>
@@ -50,7 +50,7 @@
     
     <section class="features-section">
         <div class="container">
-            <ul>
+            <ul class="features-list">
                 <li>1to1 Whatsapp Consulting</li>
                 <li>1to1 Skype Consulting</li>
                 <li>1to1 Phone Call Colsulting</li>
@@ -63,6 +63,7 @@
             <img src="img/holding-phone.jpg" alt="Man holding phone">
         </div>
     </section>
+
     <section class="testimonials-section">
         <div class="container">
             <ul>
@@ -113,15 +114,15 @@
     <script>
 
         const mobileBtn = document.getElementById('mobile-cta')
-              nav = document.querySelector('nav');
+              nav = document.querySelector('nav')
               mobileBtnExit = document.getElementById('mobile-exit');
 
         mobileBtn.addEventListener('click', () => {
-            nav.classList.add('menu-btn')
+            nav.classList.add('menu-btn');
         })
 
         mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn')
+            nav.classList.remove('menu-btn');
         })
 
     </script>
