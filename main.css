@@ -85,24 +85,24 @@ section {
   margin-top: 3em;
 }
 
-.feature-section {
+section.features-section {
   background: #20272E;
   color: white;
 }
 
-ul.feature-list {
+ul.features-list {
   margin: 0;
   padding-left: 0.1em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
-ul.feature-list li {
+ul.features-list li {
   font-size: 1.1em;
   margin-bottom: 1em;
   margin-left: 2em;
   position: relative;
 }
-ul.feature-list li:before {
+ul.features-list li:before {
   content: "";
   left: -2em;
   position: absolute;
@@ -113,7 +113,7 @@ ul.feature-list li:before {
   margin-right: 0.5em;
 }
 
-.feature-section-img {
+.feature-section img {
   display: none;
 }
 

@@ -98,12 +98,12 @@ section {
     margin-top: 3em;
 }
 
-.feature-section {
+section.features-section {
     background: #20272E;
     color: white;
 }
 
-ul.feature-list {
+ul.features-list {
     margin: 0;
     padding-left: .1em;
     display: grid;
@@ -128,7 +128,7 @@ ul.feature-list {
     }
 }
 
-.feature-section-img {
+.feature-section img {
     display: none;
 }
 
